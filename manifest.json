@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Review Scorer",
+  "version": "1.0",
+  "description": "Automatically set review scores based on percentage",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
