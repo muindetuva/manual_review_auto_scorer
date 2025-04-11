@@ -26,3 +26,7 @@ This is a simple browser extension that assists with manual review scoring.
 8. When on a manual review page just click on extension and a field will pop for you to enter the score you want to give them.
 
 9. Submit the review.
+
+---
+
+Demo Video - https://www.loom.com/share/3e756fdb17fc47d5b819d19211aee2f8
